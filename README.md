@@ -1,6 +1,8 @@
-# React Redux Boilerplate with Webpack4
+# React Redux boilerplate with Webpack4
 
-#### React Redux Webpack 4 boilerplate with the following packages and Sass
+#### React Redux Webpack 4 boilerplate with SASS
+
+## List of packages
 
 * [react](https://reactjs.org/)
 * [react-router](https://github.com/ReactTraining/react-router)
