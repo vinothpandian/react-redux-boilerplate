@@ -1,14 +1,14 @@
-import { handleAction } from "redux-actions";
-import { SWITCH_NAME } from "../actions";
+import { handleAction } from 'redux-actions';
+import { SWITCH_NAME } from '../actions';
 
 const defaultState = {
-  name: "you"
+  name: 'you',
 };
 
 export default handleAction(
   SWITCH_NAME,
   (state, action) => ({
-    name: action.payload
+    name: action.payload,
   }),
-  defaultState
+  defaultState,
 );

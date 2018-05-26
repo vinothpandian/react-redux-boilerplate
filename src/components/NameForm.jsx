@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Grid, TextField, Button } from 'material-ui';
+import { Grid, TextField, Button } from '@material-ui/core';
 
 const NameForm = class extends React.Component {
   constructor(props) {
@@ -32,7 +32,7 @@ const NameForm = class extends React.Component {
     return (
       <Grid item xs>
         <form onSubmit={this.handleSubmit}>
-          <Grid spacing={24} container alignItems="center" justify="center">
+          <Grid spacing={16} container alignItems="center" justify="center">
             <Grid item xs>
               <TextField
                 autoFocus
@@ -49,6 +49,11 @@ const NameForm = class extends React.Component {
                 Change
               </Button>
             </Grid>
+            <Grid item xs>
+              <Button onClick={this.props.randomName} variant="raised" color="secondary">
+                Random
+              </Button>
+            </Grid>
           </Grid>
         </form>
       </Grid>
@@ -58,6 +63,7 @@ const NameForm = class extends React.Component {
 
 NameForm.propTypes = {
   changeName: PropTypes.func.isRequired,
+  randomName: PropTypes.func.isRequired,
 };
 
 export default NameForm;

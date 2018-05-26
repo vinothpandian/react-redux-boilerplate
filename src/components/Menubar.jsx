@@ -1,17 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import {
-  AppBar,
-  Drawer,
-  Toolbar,
-  Typography,
-  IconButton,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-} from 'material-ui';
-import { Menu, Home, MarkunreadMailbox } from '@material-ui/icons';
+import AppBar from '@material-ui/core/AppBar';
+import Drawer from '@material-ui/core/Drawer';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import Menu from '@material-ui/icons/Menu';
+import Home from '@material-ui/icons/Home';
+import MarkunreadMailbox from '@material-ui/icons/MarkunreadMailbox';
 import styled from 'react-emotion';
 
 const CustomList = styled(List)`

@@ -7,6 +7,7 @@
 * [react](https://reactjs.org/)
 * [react-router](https://github.com/ReactTraining/react-router)
 * [redux](https://redux.js.org/)
+* [redux-saga](https://redux-saga.js.org/)
 * [redux-actions](https://redux-actions.js.org/)
 * [immutable](https://facebook.github.io/immutable-js/)
 * [axios](https://github.com/axios/axios)
