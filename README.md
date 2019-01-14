@@ -1,3 +1,9 @@
+
+```diff
+- Deprecated
+```
+## Try [cra-redux-saga](https://github.com/vinothpandian/cra-redux-saga) instead.
+
 # React Redux boilerplate with Webpack4
 
 #### React Redux Webpack 4 boilerplate with SASS
